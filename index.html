@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semester Wrapped</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/25/25274.png">
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <div class="gradient-container"></div>
+  <div id="blur-overlay"></div>
+  <div class="custom-cursor"></div>
+  <div class="realcustom-cursor"></div>
+
+  <div id="app">
+    <div id="name-picker-screen" class="screen">
+      <h1 id="title">Welcome to your <br> Semester Wrapped</h1>
+      <h1 id="intro">Select Your Name</h1>
+      <select id="name-picker">
+        <option value="no" selected disabled>Select a name</option>
+        <option value="theo">Theo</option>
+        <option value="azh">Azh</option>
+        <option value="sadie">Sadie</option>
+        <option value="grey">Grey</option>
+        <option value="rayne">Rayne</option>
+        <option value="bronwyn">Bronwyn</option>
+        <option value="jett">Loser Jett</option>
+      </select>
+      <button id="start-button">Start</button>
+    </div>
+
+    <div id="card-container" class="screen hidden">
+      <div id="card" class="card">
+        <div id="card-content"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
